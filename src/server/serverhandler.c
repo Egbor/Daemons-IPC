@@ -12,7 +12,7 @@ char int_filename[256] = "int.txt";
 char array_filename[256] = "array.txt";
 char struct_filename[256] = "struct.txt";
 
-void handler_deamon(void* args) {
+void handler_daemon(void* args) {
   pid_t pid = fork();
 
   if (pid == -1) {

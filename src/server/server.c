@@ -17,7 +17,7 @@ void setup_server(int argc, char* argv[]) {
   int signals[] = { SIGINT, SIGTERM }; // signals for redefine
   options_t* options = create_options(); // the structure keeps all options of the process
   
-  add_option(options, 'D', handler_deamon); // the option to set the program into deamon mode
+  add_option(options, 'D', handler_daemon); // the option to set the program into deamon mode
   add_option(options, 'i', handler_int); // the option to set filename for integer values
   add_option(options, 'a', handler_array); // the option to set filename for arrays of characters
   add_option(options, 's', handler_struct); // the option to set filename for structure

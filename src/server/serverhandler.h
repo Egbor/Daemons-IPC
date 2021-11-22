@@ -3,7 +3,7 @@
 
 #include <stddef.h>
 
-extern void handler_deamon(void* args);
+extern void handler_daemon(void* args);
 extern void handler_int(void* args);
 extern void handler_array(void* args);
 extern void handler_struct(void* args);
